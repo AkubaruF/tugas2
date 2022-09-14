@@ -7,5 +7,13 @@
 
 {% block content %}
   <h1>Hello, world!</h1>
-  <h3>This is example app for Django template</h3>
+  <h3>Nama saya adalah {{ name }} dengan NPM {{ npm }} </h3>
+
+  {% if persons %}
+    {% for person in persons %}
+      {{ person.display_name }} - {{ person.display_npm }}
+      <br>
+    {% endfor %}
+  {% endif %}
+
 {% endblock content %}
