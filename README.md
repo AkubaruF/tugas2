@@ -1,3 +1,13 @@
+Link aplikasi Heroku https://tugas2-lab1.herokuapp.com/
+1. Mohon maaf, tetapi saya kurang mengerti pertanyaan ini sehingga saya tidak dapat menjawab pertanyaannya.
+2. 
+   Menggunakan virtual environment agar tidak overlap dengan proyek lain. Dalam membuat aplikasi web berbasis Django kita tetap bisa melakukannya tanpa menggunakan virtual environment
+3. 
+   Poin 1: Fungsi pada views.py memiliki dictionary yang berisi data dari models.py yang sudah diimport lalu akan return di mana jika terjadi request akan menampilkan katalog.html dengan data dictionary tersebut
+   Poin 2: Routing pada views.py dilakukan dengan fungsi render ke katalog.html
+   Poin 3: Pada katalog.html membuat for loop untuk semua barang yang terdapat pada dictionary di views.py yang akan menampilkan data-data barang tersebut pada tabel di html
+   Poin 4: Untuk melakukan deployment ke Heroku pertama membuat terlebih dahulu app Heroku baru untuk Tugas 2 lalu memasukkan data API Key akun Heroku dan nama app Heroku ke repository secret github dengan nama HEROKU_API_KEY dan HEROKU_APP_NAME lalu jalankan kembali workflow dan deployment telah berhasil
+
 # Template Proyek Django PBP
 
 Pemrograman Berbasis Platform (CSGE602022) - diselenggarakan oleh Fakultas Ilmu Komputer Universitas Indonesia, Semester Ganjil 2022/2023
