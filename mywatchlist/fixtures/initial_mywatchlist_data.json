@@ -1,0 +1,112 @@
+[
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":1,
+        "fields":{
+            "watched":"Belum",
+            "title":"Spider-Man: Into the Spider-Verse",
+            "rating": "8",
+            "release_date":"December 12, 2018",
+            "review":"This is a review of Spider-Man: Into the Spider-Verse"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":2,
+        "fields":{
+            "watched":"Sudah",
+            "title":"Howl's Moving Castle",
+            "rating": "9",
+            "release_date":"November 20, 2004",
+            "review":"This is a review of Howl's Moving Castle"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":3,
+        "fields":{
+            "watched":"Belum",
+            "title":"Tenet",
+            "rating": "7",
+            "release_date":"February 10, 2021",
+            "review":"This is a review of Tenet"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":4,
+        "fields":{
+            "watched":"Sudah",
+            "title":"Kung Fu Hustle",
+            "rating": "10",
+            "release_date":"December 23, 2004",
+            "review":"This is a review of Kung Fu Hustle"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":5,
+        "fields":{
+            "watched":"Belum",
+            "title":"Breaking Bad",
+            "rating": "8",
+            "release_date":"January 20, 2008",
+            "review":"This is a review of Breaking Bad"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":6,
+        "fields":{
+            "watched":"Belum",
+            "title":"The Silence of the Lambs",
+            "rating": "8",
+            "release_date":"February 14, 1991",
+            "review":"This is a review of The Silence of the Lambs"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":7,
+        "fields":{
+            "watched":"Sudah",
+            "title":"Arcane",
+            "rating": "10",
+            "release_date":"November 6, 2021",
+            "review":"This is a review of Arcane"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":8,
+        "fields":{
+            "watched":"Sudah",
+            "title":"Spirited Away",
+            "rating": "9",
+            "release_date":"July 20, 2001",
+            "review":"This is a review of Spirited Away"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":9,
+        "fields":{
+            "watched":"Belum",
+            "title":"Extraordinary Attorney Woo",
+            "rating": "8",
+            "release_date":"June 29, 2022",
+            "review":"This is a review of Extraordinary Attorney Woo"
+        }
+    },
+    {
+        "model":"mywatchlist.mywatchlist",
+        "pk":10,
+        "fields":{
+            "watched":"Sudah",
+            "title":"Big Hero 6",
+            "rating": "8",
+            "release_date":"November 7, 2014",
+            "review":"This is a review of Big Hero 6"
+        }
+    }
+]
