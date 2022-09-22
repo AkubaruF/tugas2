@@ -13,11 +13,10 @@ TUGAS 3
 
    XML: XML didesain menjadi self-descriptive. XML hanyalah informasi yang dibungkus di dalam tag. Dokumen XML membentuk struktur seperti tree yang dimulai dari root, lalu branch, hingga berakhir pada leaves. Dokumen XML harus mengandung sebuah root element yang merupakan parent dari elemen lainnya.
 
-   HTML: 
 2. 
    Karena ada kalanya kita perlu mengirimkan data dari satu stack ke stack lainnya.
 3. 
-   a
+   
 
 # Template Proyek Django PBP
 
