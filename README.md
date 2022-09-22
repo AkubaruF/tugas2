@@ -8,6 +8,16 @@ Link aplikasi Heroku https://tugas2-lab1.herokuapp.com/
    Poin 3: Pada katalog.html membuat for loop untuk semua barang yang terdapat pada dictionary di views.py yang akan menampilkan data-data barang tersebut pada tabel di html
    Poin 4: Untuk melakukan deployment ke Heroku pertama membuat terlebih dahulu app Heroku baru untuk Tugas 2 lalu memasukkan data API Key akun Heroku dan nama app Heroku ke repository secret github dengan nama HEROKU_API_KEY dan HEROKU_APP_NAME lalu jalankan kembali workflow dan deployment telah berhasil
 
+TUGAS 3
+1. 
+   JSON: JSON didesain menjadi self-describing. Sintaks JSON merupakan turunan dari Object JavaScript. Data pada JSON disimpan dalam bentuk key dan value.
+
+   XML: XML didesain menjadi self-descriptive. XML hanyalah informasi yang dibungkus di dalam tag. Dokumen XML membentuk struktur seperti tree yang dimulai dari root, lalu branch, hingga berakhir pada leaves. Dokumen XML harus mengandung sebuah root element yang merupakan parent dari elemen lainnya.
+
+   HTML: 
+2. Karena ada kalanya kita perlu mengirimkan data dari satu stack ke stack lainnya.
+3. a
+
 # Template Proyek Django PBP
 
 Pemrograman Berbasis Platform (CSGE602022) - diselenggarakan oleh Fakultas Ilmu Komputer Universitas Indonesia, Semester Ganjil 2022/2023
