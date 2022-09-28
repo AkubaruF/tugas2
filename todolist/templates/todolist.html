@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+ {% block content %}
+
+  <h1>Tugas 4 Assignment PBP/PBD</h1>
+
+  <h5>Name: Akbar Firdaus</h5>
+
+  <h5>Student ID: 2106651856</h5>
+
+  <table>
+    <tr>
+      <th>Date</th>
+      <th>Title</th>
+      <th>Description</th>
+    </tr>
+    {% comment %} Add the data below this line {% endcomment %}
+    <!-- <tr>
+        <th>{{ task_baru.judul }}</th>
+    </tr> -->
+
+    {% if task_baru %}
+      {% for isi in task_baru %}
+        <tr>
+        <td> {{ isi.judul }} </td>
+        <td> {{ isi.deskripsi }} </td>
+        </tr>
+      {% endfor %}
+    {% endif %}
+  </table>
+
+  <h5>Sesi terakhir login: {{ last_login }}</h5>
+
+  <!-- <form action="/todolist/" method="post">
+    {% csrf_token %}
+    <label for="your_name">Your name: </label>
+    <input id="your_name" type="text" name="your_name" value="{{ current_name }}">
+    <input type="submit" value="OK">
+  </form> -->
+
+  <button><a href="{% url 'todolist:create_task' %}">Tambah Task Baru</a></button>
+
+  <button><a href="{% url 'todolist:logout' %}">Logout</a></button>
+
+ {% endblock content %}
