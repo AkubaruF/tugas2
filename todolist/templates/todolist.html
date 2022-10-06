@@ -2,11 +2,75 @@
 
  {% block content %}
 
-  <h1>Tugas 4 Assignment PBP/PBD</h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Tugas 5 Assignment PBP/PBD</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <h5>Name: Akbar Firdaus</h5>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+          <a class="nav-link" href="#">Hello, {{nama}}</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Student ID: 2106651856</a>  
+      </li>
+    </ul>
+  </div>
+</nav>
 
-  <h5>Student ID: 2106651856</h5>
+<!-- Acknowledgement -->
+<!-- https://getbootstrap.com/docs/4.0/components/card/ -->
+<!-- https://www.geeksforgeeks.org/flexbox-utilities-in-bootstrap-with-examples/ -->
+
+<h1>Todo List</h1>
+
+<div class="d-flex p-2">
+  <div class="card ho" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">This is test title-1</h5>
+      <h6 class="card-subtitle mb-2 text-muted">This is date-1</h6>
+      <p class="card-text">lorem ipsum dolor sit amet</p>
+    </div>
+  </div>
+  <div class="card ho" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">This is test title-2</h5>
+      <h6 class="card-subtitle mb-2 text-muted">This is date-1</h6>
+      <p class="card-text">lorem ipsum dolor sit amet</p>
+    </div>
+  </div>
+  <div class="card ho" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">This is test title-3</h5>
+      <h6 class="card-subtitle mb-2 text-muted">This is date-3</h6>
+      <p class="card-text">lorem ipsum dolor sit amet</p>
+    </div>
+  </div>
+  <div class="card ho" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">This is test title-4</h5>
+      <h6 class="card-subtitle mb-2 text-muted">This is date-4</h6>
+      <p class="card-text">lorem ipsum dolor sit amet</p>
+    </div>
+  </div>
+  <div class="card ho" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">This is test title-5</h5>
+      <h6 class="card-subtitle mb-2 text-muted">This is date-5</h6>
+      <p class="card-text">lorem ipsum dolor sit amet</p>
+    </div>
+  </div>
+  <div class="card ho" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">This is test title-6</h5>
+      <h6 class="card-subtitle mb-2 text-muted">This is date-6</h6>
+      <p class="card-text">lorem ipsum dolor sit amet</p>
+    </div>
+  </div>
+</div>
+
 
   <table>
     <tr>
@@ -15,9 +79,6 @@
       <th>Description</th>
     </tr>
     {% comment %} Add the data below this line {% endcomment %}
-    <!-- <tr>
-        <th>{{ task_baru.judul }}</th>
-    </tr> -->
 
     {% if task_baru %}
       {% for isi in task_baru %}
