@@ -9,12 +9,12 @@ Tugas 5
    Internal css adalah style yang digunakan untuk merubah satu halaman pada website
    External css adalah style yang digunakan untuk merubah seluruh bentuk suatu website 
    
-2. <h1> - <h6> yang digunakan untuk header dengan <h1> memiliki font paling besar dan <h6> memiliki font terkecil
-   <br> yang digunakan untuk membuat line baru
-   <table> yang digunakan untuk membuat tabel
-   <td> yang digunakan untuk menaruh data di dalam tabel
-   <th> yang digunakan untuk header tabel
-   <tr> yang digunakan untuk membuat row tabel
+2. h1 - h6 yang digunakan untuk header dengan h1 memiliki font paling besar dan h6 memiliki font terkecil
+   br yang digunakan untuk membuat line baru
+   table yang digunakan untuk membuat tabel
+   td yang digunakan untuk menaruh data di dalam tabel
+   th yang digunakan untuk header tabel
+   tr yang digunakan untuk membuat row tabel
 
 3. :hover yang merupakan selector ketika kursor mouse berada di atas
 4. 
