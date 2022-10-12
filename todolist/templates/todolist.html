@@ -71,6 +71,36 @@
   </div>
 </div>
 
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Task</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Add a new task!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="judul-task" class="col-form-label">Judul:</label>
+            <input type="text" class="form-control" id="judul-task">
+          </div>
+          <div class="mb-3">
+            <label for="deskripsi-task" class="col-form-label">Deskripsi:</label>
+            <textarea class="form-control" id="deskripsi-task"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" id="submit-button">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
 
   <table>
     <tr>
@@ -92,15 +122,9 @@
 
   <h5>Sesi terakhir login: {{ last_login }}</h5>
 
-  <!-- <form action="/todolist/" method="post">
-    {% csrf_token %}
-    <label for="your_name">Your name: </label>
-    <input id="your_name" type="text" name="your_name" value="{{ current_name }}">
-    <input type="submit" value="OK">
-  </form> -->
-
   <button><a href="{% url 'todolist:create_task' %}">Tambah Task Baru</a></button>
 
   <button><a href="{% url 'todolist:logout' %}">Logout</a></button>
+
 
  {% endblock content %}

@@ -1,5 +1,10 @@
+from turtle import title
+from django.http import HttpResponse, HttpResponseNotFound
+
 from webbrowser import get
 from django.shortcuts import render
+
+from django.core import serializers
 
 # Create your views here.
 from todolist.models import Task
@@ -18,7 +23,6 @@ import datetime
 from django.http import HttpResponseRedirect
 from django.urls import reverse
 
-from django.http import HttpResponseRedirect
 from django.shortcuts import render
 
 from todolist.forms import TaskBaru
@@ -84,3 +88,20 @@ def create_task(request):
         form = TaskBaru()
 
     return render(request, 'name.html', {'form': form})
+
+def get_task(request):
+    task = Task.objects.all()
+    return HttpResponse(serializers.serialize('json', task))
+
+def add_task(request):
+    if request.method == 'POST':
+        date = request.COOKIES['last_login']
+        title = request.POST.get("nama_barang")
+        description = request.POST.get("nama_barang")
+
+        new_task = Task(date = date, title = title, description = description)
+        new_task.save()
+
+        return HttpResponse(b"CREATED", status=201)
+
+    return HttpResponseNotFound()
