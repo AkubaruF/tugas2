@@ -147,11 +147,9 @@ for directory in [*STATICFILES_DIRS, STATIC_ROOT]:
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-<<<<<<< HEAD
 CORS_ALLOW_ALL_ORIGINS = True
-=======
+
 if "DATABASE_URL" in os.environ:
     import dj_database_url
 
     DATABASES = {"default": dj_database_url.config()}
->>>>>>> 47f9881b99179467fac6a88f78f9c478c20cc36b
